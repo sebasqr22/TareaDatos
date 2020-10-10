@@ -2,6 +2,7 @@ package X_RentCar;
 
 public class Server {
 
+
 	Prestador[] prestadores = new Prestador[100];
 	int iP = 0;
 	int iC = 0;
@@ -32,5 +33,3 @@ public class Server {
 		
 
 
-
-}

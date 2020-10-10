@@ -1,5 +1,5 @@
 package X_RentCar.factory;
-
+//Clase padre User
 public class User {
     String Facebook;
     int Cedula;

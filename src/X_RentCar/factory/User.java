@@ -1,25 +1,35 @@
 package X_RentCar.factory;
 
-public interface User {
-    String Facebook = null;
-    int cedula = 0;
-    int telefono = 0;
-    String vencimientoLicencia = null;
-    String direccion = null;
-    String cuentaBanco = null;
+public class User {
+    String Facebook;
+    int Cedula;
+    int Telefono;
+    String FechaVencimientoLicensia;
+    String Direccion;
+    String CuentaBanco;
 
-    int getFacebook();
-    void setFacebook(String facebook);
-    int getCedula();
-    void setCedula(int cedula);
-    int getTelefono();
-    void setTelefono(int telefono);
-    String getVencimientoLicencia();
-    void setVencimientoLicencia(String vencimientoLicencia);
-    String getDireccion();
-    void setDireccion(String direccion);
-    String getCuentaBanco();
-    void setCuentaBanco(String cuentaBanco);
 
+    public void setFacebook(String facebook) {
+        Facebook = facebook;
+    }
+
+    public void setCedula(int cedula) {
+        Cedula = cedula;
+    }
+
+    public void setTelefono(int telefono) {
+        Telefono = telefono;
+    }
+
+    public void setFechaVencimientoLicensia(String fechaVencimientoLicensia) {
+        FechaVencimientoLicensia = fechaVencimientoLicensia;
+    }
+
+    public void setDireccion(String direccion) {
+        Direccion = direccion;
+    }
+
+    public void setCuentaBanco(String cuentaBanco) {
+        CuentaBanco = cuentaBanco;
+    }
 }
-

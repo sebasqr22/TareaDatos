@@ -1,6 +1,6 @@
 package X_RentCar.factory;
 
-
+import X_RentCar.Prestador;
 
 public class User_Factory implements Abstract_Factory<User>{
 

@@ -1,4 +1,4 @@
-package PaqueteGeneral;
+package X_RentCar;
 
 public class Servidor {
 

@@ -4,7 +4,7 @@ public class User {
     String Facebook;
     int Cedula;
     int Telefono;
-    String FechaVencimientoLicensia;
+    String FechaVencimientoLicencia;
     String Direccion;
     String CuentaBanco;
 
@@ -21,8 +21,8 @@ public class User {
         Telefono = telefono;
     }
 
-    public void setFechaVencimientoLicensia(String fechaVencimientoLicensia) {
-        FechaVencimientoLicensia = fechaVencimientoLicensia;
+    public void setFechaVencimientoLicencia(String fechaVencimientoLicencia) {
+        this.FechaVencimientoLicencia = fechaVencimientoLicencia;
     }
 
     public void setDireccion(String direccion) {
